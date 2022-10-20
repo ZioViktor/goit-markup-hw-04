@@ -138,6 +138,19 @@ img {
     color: #2196F3;
         
 }
+.contact-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--background-color);
+    
+}
+.contact-icon {
+    margin-right: 10px;
+    fill: currentColor;
+    
+}
+
 .nav-link-email-contact {
     font-family: 'Roboto';
     font-style: normal;
@@ -250,6 +263,20 @@ img {
     text-transform: uppercase;
     color: #212121;
 }
+.advantage-item-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 30px;
+}
+
 .our-advantages-description {
     font-family: 'Roboto';
     font-style: normal;
@@ -483,7 +510,7 @@ display: block;
 .solutions-button:hover {
     background-color: var(--button-hover-focus-background-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-        color:#FFFFFF;
+    color:#FFFFFF;
     
     
 }
