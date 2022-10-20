@@ -1,0 +1,48 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.iconname {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.iconbrand-omg {
+  width: 1.3408203125em;
+}
+
+.iconcopmpany-omg {
+  width: 2.0888671875em;
+}
+
+.iconcopmpany-omg1 {
+  width: 1.0712890625em;
+}
+
+.icone-mail-omg {
+  width: 1.3330078125em;
+}
+
+.iconposter-picture-omg {
+  width: 2.0234375em;
+}
+
+.icontel-omg {
+  width: 0.625em;
+}
+
+.iconunion-omg {
+  width: 1.142578125em;
+}
+
+.iconunion-omg1 {
+  width: 0.8720703125em;
+}
