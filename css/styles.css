@@ -387,13 +387,10 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
-
-   
-    
-    
+        
     
 }
+
 .link-item {
     display: flex;
     justify-content: center;
@@ -404,11 +401,20 @@ img {
     
 }
 
+.link-item:hover {
+    background-color: #2196f3;
+    background-size: 100%;
+    border-radius: 50px;
+    
+
+}
 
 .link-item-icon {
     fill: #AFB1B8;
-    
 
+}
+.link-item-icons:hover {
+    fill: #fff;
 }
 .our-team-member {
     width: calc(100%/4 - 30px/4*3);
