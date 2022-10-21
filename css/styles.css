@@ -387,13 +387,22 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 30px;
+    
+    
+    
+}
+.link-item {
+    display: list-item;
     width: 40px;
     height: 40px;
     margin-top: 15px;
     
 }
-.link-item{
+
+
+.link-item-icon {
+    fill: #AFB1B8;
+    
 
 }
 .our-team-member {
