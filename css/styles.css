@@ -182,6 +182,7 @@ img {
     background-color: #2F303A;
     padding: 200px 0 200px;
     height: 600px;
+    max-width: 1600px;
     background-image: url(../img/backimg-omg.svg), linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -380,6 +381,19 @@ img {
     color: #757575;
     text-align: center;
     
+
+}
+.social-links-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    
+}
+.link-item{
 
 }
 .our-team-member {
