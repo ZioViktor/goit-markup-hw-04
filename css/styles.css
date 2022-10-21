@@ -387,6 +387,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
         
     
 }
@@ -413,8 +414,9 @@ img {
     fill: #AFB1B8;
 
 }
-.link-item-icons:hover {
+.link-item-icon:hover {
     fill: #fff;
+    
 }
 .our-team-member {
     width: calc(100%/4 - 30px/4*3);
