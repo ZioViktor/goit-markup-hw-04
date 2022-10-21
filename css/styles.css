@@ -387,7 +387,8 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
+    padding-bottom: 30px;
+
         
     
 }
@@ -395,10 +396,10 @@ img {
 .link-item {
     display: flex;
     justify-content: center;
-    width: 40px;
-    height: 40px;
-    padding-top: 15px;
-    padding-bottom: 30px;
+    width: 44px;
+    height: 44px;
+    padding-top: 12px;
+    
     
 }
 
@@ -406,7 +407,7 @@ img {
     background-color: #2196f3;
     background-size: 100%;
     border-radius: 50px;
-    
+            
 
 }
 
@@ -416,6 +417,7 @@ img {
 }
 .link-item-icon:hover {
     fill: #fff;
+    
     
 }
 .our-team-member {
