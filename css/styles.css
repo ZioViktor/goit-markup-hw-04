@@ -435,8 +435,8 @@ img {
 }
 .regular-customers-list {
     display: flex;
-    width: calc(100/6-30*5);
     
+
 
 }
 .regular-customers-img {
@@ -447,8 +447,16 @@ img {
     Height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    margin-right: 30px;
+
+    
 
 }
+.regular-customers-img:not(:last-child) {
+    margin-right: px;
+}
+
+
 .regular-customers-icon {
     fill: #AFB1B8;
 }
