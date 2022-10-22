@@ -386,11 +386,10 @@ img {
 .social-links-list {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-bottom: 30px;
+    background: #FFFFFF;
 
-        
-    
 }
 
 .link-item {
@@ -400,20 +399,31 @@ img {
     height: 44px;
     padding-top: 12px;
     
-    
 }
 
+
 .link-item:hover {
-    background-color: #2196f3;
+    background-color: var(--button-hover-focus-background-color);
     background-size: 100%;
     border-radius: 50px;
-    fill: #FFFFFF;     
-
+     
+}
+.link-item:focus {
+    background-color: var(--button-hover-focus-background-color);
+    color: #FFFFFF;
 }
 
 .link-item-icon {
     fill: #AFB1B8;
 
+}
+.link-item-icon:hover {
+    fill: #FFFFFF;
+    background-size: 100%;
+}
+.link-item-icon:focus {
+    background-color: var(--button-hover-focus-background-color);
+    color: #FFFFFF;
 }
 .our-team-member {
     width: calc(100%/4 - 30px/4*3);
@@ -422,6 +432,25 @@ img {
     overflow: hidden;
     
 
+}
+.regular-customers-list {
+    display: flex;
+    width: calc(100/6-30*5);
+    
+
+}
+.regular-customers-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    Width: 170px;
+    Height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+}
+.regular-customers-icon {
+    fill: #AFB1B8;
 }
 .footer{
     background-color: #2F303A;
