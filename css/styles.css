@@ -448,17 +448,35 @@ img {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     margin-right: 30px;
+    cursor: pointer;
 
     
 
 }
 .regular-customers-img:not(:last-child) {
-    margin-right: px;
+    margin-right: 30px;
 }
+.regular-customers-img:hover {
+    background: #F5F5F5;
+    border-color: #2196F3;
+}
+.regular-customers-img:focus {
+    background: #F5F5F5;
+    border-color: #2196F3;
+}
+
 
 
 .regular-customers-icon {
     fill: #AFB1B8;
+}
+.regular-customers-icon:hover {
+    fill: #2196F3;
+
+}
+.regular-customers-icon:focus {
+    fill: #2196F3;
+    border-color: #2196F3;
 }
 .footer{
     background-color: #2F303A;
