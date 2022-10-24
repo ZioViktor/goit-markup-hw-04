@@ -104,6 +104,7 @@ img {
 }
 .nav-contacts {
     display: flex;
+    justify-items: center;
     gap: 50px;
     padding-left: 200px;
     
@@ -135,20 +136,22 @@ img {
 }
 
 .current {
-    color: #2196F3;
+ color: #2196F3;
         
 }
+.contact-item {
+   
+}
+
 .contact-img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: var(--background-color);
+   background: var(--background-color);
+   
     
 }
 .contact-icon {
     margin-right: 10px;
     fill: currentColor;
-    
+       
 }
 
 .nav-link-email-contact {
@@ -160,6 +163,7 @@ img {
     letter-spacing: 0.02em;
     color: #757575;
     padding: 32px 0px;
+    
 }
 .nav-link-tel-contact {
     font-family: 'Roboto';
